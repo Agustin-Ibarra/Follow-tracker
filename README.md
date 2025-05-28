@@ -4,7 +4,7 @@ Usuarios que sigues (Following)
 Usuarios que te siguen (Followers)
 ## Tabla de contenido
 1. [Características](#características)
-3. [BackEnd](#backEnd)
+3. [BackEnd](#backend)
 7. [Monitoreo de rutas](#monitoreo-de-rutas)
 2. [FrontEnd](#frontend)
 ## Características
