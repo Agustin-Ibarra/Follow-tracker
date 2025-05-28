@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap"
+    rel="stylesheet">
+  <title>Follow Tracker</title>
+</head>
+
+<body>
+  <header>
+    <h1 class="roboto-font">Follow Tracker</h1>
+    <nav>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="/guide" class="roboto-font">Como usar Follow tracker
+            <span class="material-symbols-outlined">dictionary</span>
+          </a>
+        </li>
+        <li class="nav-item roboto-font"><a href="/about">Acerca de <span class="material-symbols-outlined">help</span></a></li></ul>
+    </nav>
+  </header>
+  <section class="main">
+    <p class="text roboto-font">Follow tracker te permite analizar entre las cuentas que sigues y las cuentas que te siguen, con el resultado obtenido de la búsqueda, podrás hacer con ella lo que necesites.</p>
+    <section class="text-area-section">
+      <textarea name="Followers" id="followers" placeholder="Copia los seguidores aqui" class=""></textarea>
+      <textarea name="Followed" id="followed" placeholder="Copia tus seguidos aqui" class=""></textarea>
+    </section>
+    <button class="compare roboto-font">Buscar usuarios <span
+        class="material-symbols-outlined compare compare-icon">search</span>
+      <div class="spinner hidden"></div>
+    </button>
+    <section class="unfollow-section">
+      <p class="unfollow-title roboto-font">Usuarios que no te siguen 0</p>
+      <ul class="unfollow-list">
+      </ul>
+    </section>
+    <button class="clear hidden">Reiniciar busqueda <span class="material-symbols-outlined clear">refresh</span></button>
+  </section>
+  <div class="error hidden">
+    <div class="div-error">
+      <p class="roboto-font error-title">Error</p>
+      <p class="text roboto-font">Superaste el limite de 2 busquedas</p>
+      <button class="close">Aceptar</button>
+    </div>
+  </div>
+  <footer>
+    <p class="roboto-font">Esta iniciativa busca una transparencia en la interacción entre usuarios, trata de usarlo de manera responsable y coherente.</p>
+    <p class="">Desarrollado por Agustin Ibarra</p>
+    <a href="https://github.com/Agustin-Ibarra" target="_blank" class="guithub">Guithub</a>
+  </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
