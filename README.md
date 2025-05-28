@@ -13,7 +13,7 @@ Usuarios que te siguen (Followers)
 - Guía de usuario para poder usar correctamente la aplicación
 - Sección sobre información y propósito de la aplicación
 ## BackEnd
-- Tecnologias utilizadas: TypeScript Node.js con Express
+- Tecnologias utilizadas: JavaScript Node.js con Express
 ```
 backend/
 │
